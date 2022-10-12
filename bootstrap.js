@@ -5,6 +5,7 @@ var player = new Clappr.Player({
     width: "100%",
     height: "100vh",
     autoPlay: true,
+    mediacontrol: { seekbar: "#ffc10e", buttons: "#ffc10e" },
     events: {
         onStop: () => {
             setTimeout(() => player.play(), 1000);
