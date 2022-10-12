@@ -7,6 +7,7 @@ if (p2pml.hlsjs.Engine.isSupported()) {
         width: "100%",
         height: "100vh",
         autoPlay: true,
+        mediacontrol: { seekbar: "#ffc10e", buttons: "#ffc10e" },
         playback: {
             hlsjsConfig: {
                 liveSyncDurationCount: 7,
